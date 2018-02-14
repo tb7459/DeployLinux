@@ -29,4 +29,14 @@ configuration changes:
       and added <DIRECTORY />
       
    2) PostGreSql:
+       updated postgresql.conf to listen on all,
+       updated pg_hba.conf to allow only catalog 
+         to login to libbooks database on 35.171.4.160
+        
+    3) my files:
+       updated all files to use postgresql database instead of sqllite,
+       updated application.py(wsgi file being called by apache2) to use facebook login 
+       as google plus wouldn't allow the connection, also updated templates/login.html 
+       to point to facebook login. updated database_setup.py, had to change table name 'user' 
+       to 'libraryuser' as user is already a table in postgresql.
        

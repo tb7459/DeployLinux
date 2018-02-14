@@ -6,7 +6,7 @@ FSND Final project
 2) use the following command to login as grader(be sure to replace <path to key> with the full path,
     and <key name> with the name of the file):
   
-    ssh grader@35.171.4.160 -p 2200 -i <path to key>/<key name>
+    ssh grader@35.171.4.160 -p 2200 -i (path to key)/(key name)
     (ip address: 35.171.4.160 port: 2200)
   
 ----URL for webpage ----
